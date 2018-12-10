@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 void generate();
-void main(void)
+void main(void)  /*CPU BENCHMARK TOOL BY SHREYAN NAG */ /*Code in development*/
 {
   double spent = 0.0;
   clock_t begin= clock();
@@ -26,7 +26,7 @@ int primer(int num)
 void generate()
 {
   int i;
-  unsigned int num=4294967295;
+  unsigned int num=4000;
   for(i=1;i<=num;i++)
   {
     if(primer(i))
