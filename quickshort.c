@@ -1,0 +1,2 @@
+//Quickshort technique
+
